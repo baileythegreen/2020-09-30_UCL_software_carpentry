@@ -2,7 +2,7 @@
 
 # Link to workshop website
 
-<http://rits.github-pages.ucl.ac.uk/2020-09-30-UCL>
+<http://rits.github-pages.ucl.ac.uk/2020-09-30_UCL_software_carpentry>
 
 # The Carpentries Workshop Template
 
