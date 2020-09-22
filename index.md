@@ -375,6 +375,7 @@ to include the relevant installation instrucctions.
 {% endcomment %}
 {% if online != "false" %}
 {% include install_instructions/videoconferencing.html %}
+{% include install_instructions/shellshare.html %}
 {% endif %}
 
 {% comment %}
