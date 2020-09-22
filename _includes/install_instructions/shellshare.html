@@ -1,0 +1,46 @@
+
+<h3 id="shellshare">Set up shellshare</h3>
+
+{% comment %}
+Replace the paragraph below with the relevant installation instructions
+if you do not use Zoom
+{% endcomment %}
+<p>
+  We will be using <a href="https://shellshare.net/">shellshare</a> to broadcast your terminal to our helpers.
+  If you are using MacOS or Linux you can follow these instructions:
+
+  <ol type="1">
+    <li> Open a terminal </li>
+    <li> Download the file with:
+      <pre>
+        <code> curl -sLo shellshare https://get.shellshare.net </code>
+      </pre>
+      if <code>curl</code> fails, then use:
+      <pre>
+        <code> wget -qO shellshare https://get.shellshare.net </code>
+      </pre>
+    </li>
+  </ol>
+
+  If you are using windows, then do as follows:
+
+  <ol type="1">
+    <li> Open a git bash terminal </li>
+    <li> Run the following command
+      <pre>
+        <code> bash -c "$(curl -fsSL http://tiny.cc/shellshare-win)" </code>
+      </pre>
+    </li>
+  </ol>
+
+  To test it for any of the operating systems, open a new terminal and run the following:
+  <pre>
+    <code> python shellshare </code>
+  </pre>
+  You should get an output as:
+  <pre>
+    <code> Sharing terminal in https://shellshare.net/r/EPbZJ7VZNakS9vwUlS </code>
+  </pre>
+  And everything you type would be shown on that URL. When you want to stop sharing, type <code>exit</code>.
+
+</p>
